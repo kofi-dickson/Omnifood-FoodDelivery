@@ -1,0 +1,24 @@
+# Exclude Git files (they are local metadata)
+.git
+.gitignore
+
+# Exclude IDE and OS files
+.idea
+.vscode
+.DS_Store
+
+# Exclude dependency and build output directories
+# (If your Docker build doesn't need to read these)
+node_modules
+dist
+build
+out
+public
+
+# Exclude Kubernetes/Kind configuration files
+# (These are host-specific and not needed inside the container)
+kubeconfig.yaml
+*.kubeconfig
+
+# Exclude the dockerignore file itself (standard practice)
+.dockerignore
