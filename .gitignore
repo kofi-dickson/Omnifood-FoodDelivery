@@ -1,0 +1,41 @@
+/node_modules
+/npm-debug.log
+.yarn-integrity
+
+venv/
+.venv/
+# Byte-compiled files
+*.pyc
+__pycache__/
+
+.bundle/
+/vendor/bundle
+
+
+/dist
+/build
+/out
+/public
+/._*
+
+
+.dockerignore
+.docker/
+!**/.dockerignore # Don't ignore the ignore file itself if it exists
+
+kubeconfig.yaml
+*.kubeconfig
+
+.kind/
+.k3d/
+
+.DS_Store
+.Trashes
+
+.idea/
+
+.vscode/
+
+# Vim/Nano swap files
+*.swp
+*~
